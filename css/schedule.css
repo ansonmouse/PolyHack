@@ -1,0 +1,97 @@
+@CHARSET "UTF-8";
+.panel-default{
+	background:none;
+	border:0;
+	box-shadow:none;
+	font-weight:200;
+}
+.panel-default > .panel-heading{
+	background:none;
+}
+.panel-heading{
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	background:none;
+}
+.panel-heading table{
+	width:100%;
+}
+.panel-heading:hover{
+	background-color:rgba(240,240,240,1.0);
+}
+.panel-heading hr{
+	margin-top:10px;
+	margin-bottom:0;
+}
+.panel a{
+	color:rgba(0,0,0,1.0);
+}
+.panel-heading td{
+	padding-left:5px;
+}
+.day-of-week{
+	font-weight:400;
+}
+.event-type{
+	font-weight:400;
+}
+.panel-heading .schedule-date{
+	min-width:70px;
+	width:10%;
+}
+.panel-heading .schedule-time{
+	min-width:70px;
+	width:10%;
+	padding-right:5px;
+}
+.panel-heading .schedule-title{
+}
+.panel-heading .schedule-venue{
+	min-width:70px;
+	width:10%;
+}
+.workshop{
+	border-left:3px solid rgba(213, 215, 83, 1.0);
+}
+.seminar{
+	border-left:3px solid rgba(104, 199, 198, 1.0);
+}
+.briefing{
+	border-left:3px solid rgba(178, 128, 184, 1.0);
+}
+.hackathon{
+	border-left:3px solid rgba(197, 124, 89, 1.0);
+}
+.feature{
+	border-left:3px solid rgba(68, 67, 69, 1.0);
+}
+.workshop .event-type{
+	color:rgba(213, 215, 83, 1.0);
+}
+.seminar .event-type{
+	color:rgba(104, 199, 198, 1.0);
+}
+.briefing .event-type{
+	color:rgba(178, 128, 184, 1.0);
+}
+.hackathon .event-type{
+	color:rgba(197, 124, 89, 1.0);
+}
+.feature .event-type{
+	color:rgba(68, 67, 69, 1.0);
+}
+@media (max-width: 767px) {
+.event-type{
+	font-size:14px;
+}
+}
+@media (min-width: 768px) {
+.event-type{
+	font-size:14px;
+}
+}
+@media (min-width: 1200px) {
+.event-type{
+	font-size:18px;
+}
+}

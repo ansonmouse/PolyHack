@@ -1,0 +1,283 @@
+@charset "UTF-8";
+/* CSS Document */
+.top-banner{
+	background-size:100% 100%;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-color:rgba(218, 169, 139, 1.0);
+}
+#circle{
+	margin-top:5px;
+	margin-bottom:5px;
+	border-radius:100%;
+	background-color:rgba(154,36,38,1.00);
+	max-height:300px;
+	max-width:300px;
+}
+.divCenter{
+	margin-left:auto;
+	margin-right:auto;
+}
+#introRow .col-sm-4 .wow{
+	margin-bottom:40px;
+}
+.map{
+	width:calc(100% + 30px);
+	height:300px;
+	border:0;
+	margin-bottom:-7px;
+	margin-left:-15px;
+}
+.container-fluid{
+	margin-bottom:50px;
+}
+form label{
+	color:rgba(255,255,255,1.00);
+	font-weight:200;
+}
+form .text{
+	border-style:none;
+	border-left:0;
+	border-right:0;
+	border-top:0;
+	border-radius:0;
+	border-bottom:3px solid rgba(247,248,249,1.00);
+	background:none;
+	box-shadow:none;
+	color:rgba(247,248,249,1.00);
+	font-size:20px;
+	font-weight:200;
+}
+form .text:active, form .text:focus{
+	box-shadow:none;
+	outline:none;
+	border-bottom:3px solid rgba(247,248,249,1.00);
+}
+form .submit{
+	width:100%;
+	margin-bottom:20px;
+	background:none;
+	border:3px solid rgba(247,248,249,1.00);
+	color:rgba(247,248,249,1.00);
+}
+form .submit:hover{
+	background-color:rgba(247,248,249,1.00);
+	color:rgba(196,124,89,1.00);
+	border:3px solid rgba(247,248,249,1.00);
+}
+textarea{
+	resize:none;
+}
+.logos{
+	position:absolute;
+	bottom:10px;
+	margin-left:10px;
+}
+.social-icons{
+	position:absolute;
+	bottom:10px;
+}
+.social-icons img{
+	margin:10px;
+}
+.scroll-down{
+	color:rgba(247,248,249,1.00);
+	font-weight:200;
+}
+#countDownFrame{
+	position:absolute;
+	top:35vh;
+	width:100%;
+	color:rgba(247,248,249,1.00);
+	font-weight:200;
+}
+#applicationFrame{
+	position:absolute;
+	top:60vh;
+	width:100%;
+}
+#applicationFrame button{
+	color:rgba(247,248,249,1.00);
+	font-weight:200;
+	background:none;
+	padding-left:40px;
+	padding-right:40px;
+	border:2px solid rgba(247,248,249,1.00);
+}
+#applicationFrame button:hover{
+	background-color:rgba(247,248,249,0.80);
+	color:rgba(218, 169, 139, 1.0);
+}
+video#bgvid{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index:0;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	background: url(video/test.jpg) no-repeat;
+	background-size: cover;
+}
+@media (max-width: 767px) {
+.top-banner{
+	background-image:url(../image/home_top_S.svg);
+}
+#circle{
+	height:40vw;
+	width:40vw;
+}
+#introRow .col-sm-4{
+	margin-bottom:60px;
+}
+.map{
+	margin-top:20px;
+}
+.form{
+	padding-left:5vw;
+	padding-right:5vw;
+}
+.form label{
+	font-size:20px;
+}
+form .submit{
+	font-size:20px;
+}
+.social-icons{
+	width:1px;
+	right:70px;
+	text-align:centerl;
+	
+}
+.social-icons img{
+	height:25px;
+}
+.logos{
+	width:1px;
+	margin-left:-10px;
+}
+.logos img{
+	height:30px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.scroll-down{
+	font-size:24px;
+	margin-top:90vh;
+}
+.scroll-down img{
+	height:19px;
+}
+#scroll-down a, #scroll-down a:link, #scroll-down a:hover, #scroll-down a:active, #scroll-down a:visited{
+	color:rgba(247,248,249,1.00);
+}
+#countDown{
+	font-size:7.5vw;
+}
+#countDownFrame{
+	font-size:26px;
+}
+#applicationFrame button{
+	font-size:26px;
+}
+}
+@media (min-width: 768px) {
+.top-banner{
+	background-image:url(../image/home_top_M.svg);
+}
+#circle{
+	height:20vw;
+	width:20vw;
+}
+.detail-left{
+	padding-left:5vw;
+}
+.detail-right{
+	padding-right:5vw;
+}
+#awardText{
+	margin-top:40px;
+}
+#mapText{
+	margin-top:40px;
+}
+.form{
+	padding-left:5vw;
+	padding-right:5vw;
+}
+.form label{
+	font-size:18px;
+}
+form{
+	margin-right:9vw;
+}
+.logos img{
+	margin:6px;
+	height:40px;
+}
+.social-icons{
+	right:40px;
+}
+.social-icons img{
+	height:25px;
+}
+.scroll-down{
+	font-size:26px;
+	margin-top:85vh;
+}
+.scroll-down img{
+	height:20px;
+}
+#countDown{
+	font-size:60px;
+}
+#countDownFrame{
+	font-size:30px;
+}
+#applicationFrame button{
+	font-size:30px;
+}
+}
+@media (min-width: 1200px) {
+.top-banner{
+	background-image:url(../image/home_top_L.svg);
+}
+.detail-left{
+	padding-left:10vw;
+}
+.detail-right{
+	padding-right:10vw;
+}
+.map{
+	margin-left:-14px;
+}
+form label{
+	font-size:20px;
+}
+form .submit{
+	font-size:20px;
+}
+.logos img{
+	margin:10px;
+	height:50px;
+}
+.scroll-down{
+	margin-top:80vh;
+}
+.social-icons img{
+	height:40px;
+}
+#countDown{
+	font-size:80px;
+}
+#countDownFrame{
+	font-size:40px;
+}
+#applicationFrame button{
+	font-size:40px;
+}
+}
+
