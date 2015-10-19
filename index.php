@@ -51,9 +51,7 @@
 					</div>
 					<h1>24 Hours</h1>
 				</div>
-				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-				commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-				penatibus et
+				For non stop creativity
 			</div>
 			<div class="col-sm-4">
 				<div class="wow zoomIn" data-wow-delay="0.5s">
@@ -62,9 +60,7 @@
 					</div>
 					<h1>One Idea</h1>
 				</div>
-				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-				commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-				penatibus et
+				Unlimited potential
 			</div>
 			<div class="col-sm-4">
 				<div class="wow zoomIn" data-wow-delay="0.75s">
@@ -73,9 +69,7 @@
 					</div>
 					<h1>One Prototype</h1>
 				</div>
-				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-				commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-				penatibus et
+				Turn your dreams into reality
 			</div>
 		</div>
 	</div>
@@ -87,7 +81,7 @@
 			data-wow-delay="0.75s" id="mapText">
 			<h1>The Main Event</h1>
 			<h3>Date: 30 - 31 Jan 2016</h3>
-			<h3>Venue: Shaw Sports Centre, PolyU</h3>
+			<h3>Venue: 13/F, School of Design, PolyU</h3>
 			<h3>Fee: Free!</h3>
 		</div>
 		<div class="col-sm-6 wow fadeIn" data-wow-delay="1s">
@@ -104,9 +98,12 @@
 		</div>
 		<div class="col-sm-6 detail-right wow fadeInUp" data-wow-delay="1s">
 			<h1>The PolyHack Award</h1>
-			Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-			commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-			et <br> <a href="#">More detail on the awards ></a>
+				<ul>
+					<li>Gold, Silver and Bronze award</li>
+					<li>Best theme product award</li>
+					<li>Best audience award</li>
+				</ul>
+			<br> <a href="#">More detail on the awards ></a>
 		</div>
 	</div>
 </div>

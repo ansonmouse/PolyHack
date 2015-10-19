@@ -2,127 +2,47 @@
 $general_info = array(
 		array(
 				'question'=>'What is PolyHack?',
-				'answer'=>'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-				Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque 
-				penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-				Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
-				Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-				aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, 
-				imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede 
-				mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum 
-				semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, 
-				porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, 
-				dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla 
-				ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam 
-				ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam 
-				eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, 
-				sem quam semper libero'
-		),
-		array(
-				'question'=>'What is PolyHack?',
-				'answer'=>'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-				Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque 
-				penatibus et magnis dis parturient montes, nascetur ridiculus mus.'
-		),
-		array(
-				'question'=>'Media Press',
-				'answer'=>'semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, 
-				porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, 
-				dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla 
-				ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam 
-				ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam 
-				eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, 
-				sem quam semper libero'
-		),
-		array(
-				'question'=>'Support',
-				'answer'=>'Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
-				Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-				aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, 
-				imperdiet a'
+				'answer'=>'PolyHack is a student driven hackathon event that allows students from different disciplines and alumni to prototype their ideas with the aim of motivating students to work with latest technology and solve real-world problems. The event will consist of a series of intensive workshops and a final 24-hours period developing their software and hardware prototype development. A product showcase and presentation session will be organized to give participants the opportunity to pitch and market their work.'	
 		),
 );
 
 $registration = array(
 		array(
+				'question'=>'Who can join?',
+				'answer'=>'Only PolyU student and alumni are eligable',
+		),
+		array(
 				'question'=>'When can I apply the Hackathon?',
-				'answer'=>'Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
-				Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-				aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, 
-				imperdiet a'
+				'answer'=>'Registration starts now!' 
 		),
 		array(
 				'question'=>'Is workshop and seminar a must?',
-				'answer'=>'Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
-				Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-				aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, 
-				imperdiet a'
+				'answer'=>'They are not, but highly recommanded. The workshops aim to provide essential skills for students without programming, design or business opportunity to get essential skills required in a product development cycle so that they can begin exploring more by themselves. Students are encouraged to join the workshops to learn something outside of their own discpline.' 
 		),
 		array(
 				'question'=>'Ticketing',
-				'answer'=>'Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
-				Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-				aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, 
-				imperdiet a'
+				'answer'=>'Please refer to https://xxx.xxx.hk for details.'
 		),
 		array(
 				'question'=>'Attendance Time',
-				'answer'=>'Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
-				Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-				aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, 
-				imperdiet a'
+				'answer'=>'Registration starts from 10am on the first day of the event. All registered teams must check-in before 10:30am.'
 		),
 		array(
 				'question'=>'Attendance Procedure',
-				'answer'=>'Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
-				Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-				aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, 
-				imperdiet a'
+				'answer'=>'Please present your PolyU StudentID at the check-in counter. You will than be given a QR code which will be used for getting food and vote for the best audience award.'
 		),
 );
 
 $transportation = array(
 		array(
-				'question'=>'When can I apply the Hackathon?',
-				'answer'=>''
-		),
-		array(
-				'question'=>'Is workshop and seminar a must?',
-				'answer'=>''
-		),
-		array(
-				'question'=>'Ticketing',
-				'answer'=>''
-		),
-		array(
-				'question'=>'Attendance Time',
-				'answer'=>''
-		),
-		array(
-				'question'=>'Attendance Procedure',
-				'answer'=>''
+				'question'=>'How to reach the venue?',
+				'answer'=>'Take the elevator on 3/F of block V (School of Design).'
 		),
 );
 
 $emergency = array(
 		array(
-				'question'=>'When can I apply the Hackathon?',
-				'answer'=>''
-		),
-		array(
-				'question'=>'Is workshop and seminar a must?',
-				'answer'=>''
-		),
-		array(
-				'question'=>'Ticketing',
-				'answer'=>''
-		),
-		array(
-				'question'=>'Attendance Time',
-				'answer'=>''
-		),
-		array(
-				'question'=>'Attendance Procedure',
-				'answer'=>''
+				'question'=>'What to do in case of emergency?',
+				'answer'=>'Contact nearby staff for immediate assistant.'
 		),
 );
