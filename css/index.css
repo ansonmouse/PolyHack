@@ -123,9 +123,6 @@ video#bgvid{
 	background-size: cover;
 }
 @media (max-width: 767px) {
-.top-banner{
-	background-image:url(../image/home_top_S.svg);
-}
 #circle{
 	height:40vw;
 	width:40vw;
@@ -185,9 +182,6 @@ form .submit{
 }
 }
 @media (min-width: 768px) {
-.top-banner{
-	background-image:url(../image/home_top_M.svg);
-}
 #circle{
 	height:20vw;
 	width:20vw;
@@ -242,9 +236,6 @@ form{
 }
 }
 @media (min-width: 1200px) {
-.top-banner{
-	background-image:url(../image/home_top_L.svg);
-}
 .detail-left{
 	padding-left:10vw;
 }
@@ -262,13 +253,13 @@ form .submit{
 }
 .logos img{
 	margin:10px;
-	height:50px;
+	height:40px;
 }
 .scroll-down{
 	margin-top:80vh;
 }
 .social-icons img{
-	height:40px;
+	height:35px;
 }
 #countDown{
 	font-size:80px;

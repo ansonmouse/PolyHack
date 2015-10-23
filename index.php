@@ -5,9 +5,9 @@
 <!-- Main Content -->
 <div class="container-fluid fill-height top top-banner wow fadeIn"
 	id="top-fill-height">
-	<!--<video autoplay loop muted poster="video/test.jpg" id="bgvid">
-      <source src="video/test_s.mp4" type="video/mp4">
-    </video>-->
+	<video autoplay loop muted poster="image/poly-flyby/home_bg.jpg" id="bgvid">
+      <source src="image/poly-flyby/home_bg.mp4" type="video/mp4">
+    </video>
 	<!-- First Fill Content -->
 	<div class="row text-center" id="countDownFrame">
 		<div id="countDown"></div>
