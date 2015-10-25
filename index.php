@@ -103,7 +103,7 @@
 		 style="background-color: rgba(161, 39, 67, 1.00)">
 		<div class="row">
 			<div class="col-sm-6 detail-left wow slideInLeft light"
-				 data-wow-delay="0.75s" id="mapText">
+				 data-wow-delay="0.25s" id="mapText">
 				<h1>The Main Event</h1>
 				<table class="main-event-detail-table">
 					<tr>
@@ -120,7 +120,7 @@
 					</tr>
 				</table>
 			</div>
-			<div class="col-sm-6 wow fadeIn" data-wow-delay="1s">
+			<div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
 				<iframe
 					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d922.8200460726586!2d114.17941715712942!3d22.3052409515323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x41b4db8708c4f997!2zSm9ja2V5IENsdWIgSW5ub3ZhdGlvbiBUb3dlciDos73ppqzmnIPlibXmlrDmqJM!5e0!3m2!1szh-TW!2shk!4v1445746966551"
 					class="map" allowfullscreen></iframe>
@@ -129,10 +129,10 @@
 	</div>
 	<div class="container-fluid gap">
 		<div class="row">
-			<div class="col-sm-6 text-center wow fadeInUp" data-wow-delay="0.75s">
+			<div class="col-sm-6 text-center wow fadeInUp" data-wow-delay="0.25s">
 				<img src="image/trophy.svg" height="300">
 			</div>
-			<div class="col-sm-6 detail-right wow fadeInUp" data-wow-delay="1s">
+			<div class="col-sm-6 detail-right wow fadeInUp" data-wow-delay="0.5s">
 				<h1>The PolyHack Award</h1>
 				<h2>Awards with up to $7,500 cash prize.</h2>
 				<ul>
@@ -148,19 +148,19 @@
 		 style="background-color: rgba(197, 124, 89, 1.00)" name="contact" id="contact">
 		<h1 class="light detail-left">Talk to Us</h1>
 		<form class="form-horizontal" role="form">
-			<div class="form-group wow fadeInUp" data-wow-delay="0.7s">
+			<div class="form-group wow fadeInUp" data-wow-delay="0.25s">
 				<label for="name" class="control-label col-sm-2">Name: </label>
 				<div class="col-sm-10">
 					<input type="text" class="form-control text" name="name" id="name">
 				</div>
 			</div>
-			<div class="form-group wow fadeInUp" data-wow-delay="0.8s">
+			<div class="form-group wow fadeInUp" data-wow-delay="0.5s">
 				<label for="email" class="control-label col-sm-2">Email: </label>
 				<div class="col-sm-10">
 					<input type="email" class="form-control text" name="email" id="email">
 				</div>
 			</div>
-			<div class="form-group wow fadeInUp" data-wow-delay="1s">
+			<div class="form-group wow fadeInUp" data-wow-delay="0.75s">
 				<label for="message" class="control-label col-sm-2">Message: </label>
 				<div class="col-sm-10">
 				<textarea class="form-control text" name="message" id="message"
@@ -169,7 +169,7 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-2"></div>
-				<div class="col-sm-10 wow fadeInUp" data-wow-delay="1.25s">
+				<div class="col-sm-10 wow fadeInUp" data-wow-delay="1s">
 					<input type="submit" name="submit" class="btn btn-default submit" value="Send">
 				</div>
 			</div>

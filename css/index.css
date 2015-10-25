@@ -88,7 +88,7 @@ textarea{
 }
 #countDownFrame{
 	position:absolute;
-	top:35vh;
+	top:30vh;
 	width:100%;
 	color:rgba(247,248,249,1.00);
 	font-weight:200;
@@ -98,7 +98,7 @@ textarea{
 }
 #applicationFrame{
 	position:absolute;
-	top:70vh;
+	top:60vh;
 	width:100%;
 }
 #applicationFrame button{
@@ -148,6 +148,25 @@ video#bgvid{
 	text-decoration: underline;
 }
 @media (max-width: 767px) {
+	#countDownFrame{
+		top:20vh;
+	}
+	#applicationFrame{
+		top:60vh;
+	}
+	#applicationFrame button{
+		padding-left:20px;
+		padding-right:20px;
+	}
+	body, html{
+		background-image: url("../image/poly-flyby/home_bg.jpg");
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.video-frame video{
+		display: none;
+	}
 	.intro-text{
 		padding-top: 70px;
 		padding-bottom: 70px;
@@ -209,7 +228,7 @@ video#bgvid{
 		font-size:26px;
 	}
 	#applicationFrame button{
-		font-size:26px;
+		font-size:23px;
 	}
 }
 @media (min-width: 768px) {
