@@ -2,13 +2,13 @@
 //type: workshop, seminar, breafing, hackathon, feature
 $schedule = array(
 		array(
-				'date'=>'Nov 6',
+				'date'=>'Nov 13',
 				'day_of_week'=>'Fri',
-				'start_time'=>'6:00 PM', 
-				'end_time'=>'7:00 PM', 
-				'title'=>'Seminar', 
-				'venue'=>'TU101', 
-				'type'=>'seminar',
+				'start_time'=>'6:45 PM',
+				'end_time'=>'9:00 PM',
+				'title'=>'PizzaHack',
+				'venue'=>'TBC',
+				'type'=>'briefing',
 				'description'=>'<p>Sharing on hackathon.</p>
 				<p>Students will be introduced the idea of what a hackathon is. There will be sharings by hackathon organizers and participants who will talk about their experience and the benefits brought. Team formation is encouraged.</p>'
 		),
@@ -16,8 +16,8 @@ $schedule = array(
 		array(
 				'date'=>'Jan 9',
 				'day_of_week'=>'Sat',
-				'start_time'=>'11:00 PM',
-				'end_time'=>'6:00 PM',
+				'start_time'=>'10:00 PM',
+				'end_time'=>'4:00 PM',
 				'title'=>'Turn yourself into web programmer in 3 hours - Introduction to web programming and design',
 				'venue'=>'P503',
 				'type'=>'workshop',
@@ -56,7 +56,7 @@ $schedule = array(
 				'start_time'=>'10:00 AM',
 				'end_time'=>'3:00 PM',
 				'title'=>'The PolyHack Competition',
-				'venue'=>'V',
+				'venue'=>'V1310',
 				'type'=>'hackathon',
 				'description'=>'Main hackathon event.'
 		),

@@ -13,6 +13,9 @@
 	border-top-right-radius: 0px;
 	background:none;
 }
+.panel a{
+	text-decoration: none;
+}
 .panel-heading table{
 	width:100%;
 }
