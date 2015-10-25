@@ -60,11 +60,7 @@
 		<div class="row"><div class="col-sm-12"><h1>More Than Just Coding</h1></div></div>
 		<div class="row"><div class="col-sm-12">
 				<p>
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-					Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-					ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-					fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae,
-					justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+					Tired of programming just for assignments, projects and want to make something really useful? Or you have a killer idea in mind for a long time but did not have the opportunity to realize it? This is what PolyHack is all about! Whether you are a programmer, designer or PolyU students from other discipline who have an idea but do not have what it takes to realize your dream, PolyHack is the place for you. In PolyHack you meet people of different talents, through 24 hours of trial and error, you make your dreams come true!
 				</p>
 			</div></div>
 	</div>
@@ -77,7 +73,7 @@
 					</div>
 					<h1>24 Hours</h1>
 				</div>
-				For non stop creativity
+				of non stop innovation
 			</div>
 			<div class="col-sm-4">
 				<div class="wow zoomIn" data-wow-delay="0.5s">
@@ -86,7 +82,7 @@
 					</div>
 					<h1>One Idea</h1>
 				</div>
-				Unlimited potential
+				with unlimited potential
 			</div>
 			<div class="col-sm-4">
 				<div class="wow zoomIn" data-wow-delay="0.75s">
@@ -95,7 +91,7 @@
 					</div>
 					<h1>One Prototype</h1>
 				</div>
-				Turn your dreams into reality
+				that turns your dream into reality
 			</div>
 		</div>
 	</div>
