@@ -88,7 +88,6 @@ textarea{
 }
 #countDownFrame{
 	position:absolute;
-	top:30vh;
 	width:100%;
 	color:rgba(247,248,249,1.00);
 	font-weight:200;
@@ -98,7 +97,6 @@ textarea{
 }
 #applicationFrame{
 	position:absolute;
-	top:60vh;
 	width:100%;
 }
 #applicationFrame button{
@@ -222,16 +220,25 @@ video#bgvid{
 		color:rgba(247,248,249,1.00);
 	}
 	#countDown{
-		font-size:7.5vw;
+		font-size:32px;
 	}
 	#countDownFrame{
-		font-size:26px;
+		font-size:32px;
+	}
+	#countDown h3{
+		font-size: 26px;
 	}
 	#applicationFrame button{
 		font-size:23px;
 	}
 }
 @media (min-width: 768px) {
+	#countDownFrame{
+		top:30vh;
+	}
+	#applicationFrame{
+		top:70vh;
+	}
 	.intro-text{
 		padding-top: 120px;
 		padding-bottom: 120px;
@@ -292,6 +299,12 @@ video#bgvid{
 	}
 }
 @media (min-width: 1200px) {
+	#countDownFrame{
+		top:35vh;
+	}
+	#applicationFrame{
+		top:80vh;
+	}
 	.intro-text{
 		padding-top: 200px;
 		padding-bottom: 200px;
