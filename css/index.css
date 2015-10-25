@@ -1,10 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
-.top-banner{
-	background-size:100% 100%;
-	background-position:center center;
-	background-repeat:no-repeat;
-	background-color:rgba(218, 169, 139, 1.0);
+section{
+	background-color: rgba(247,248,249,1.00);
 }
 #circle{
 	margin-top:5px;
@@ -21,15 +18,18 @@
 #introRow .col-sm-4 .wow{
 	margin-bottom:40px;
 }
+.intro-text{
+	background-image: url("../image/intro-text.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
 .map{
 	width:calc(100% + 30px);
 	height:300px;
 	border:0;
 	margin-bottom:-7px;
 	margin-left:-15px;
-}
-.container-fluid{
-	margin-bottom:50px;
 }
 form label{
 	color:rgba(255,255,255,1.00);
@@ -83,6 +83,8 @@ textarea{
 .scroll-down{
 	color:rgba(247,248,249,1.00);
 	font-weight:200;
+	position: absolute;
+	width: 100%;
 }
 #countDownFrame{
 	position:absolute;
@@ -91,9 +93,12 @@ textarea{
 	color:rgba(247,248,249,1.00);
 	font-weight:200;
 }
+#countDown{
+	margin-bottom: -20px;
+}
 #applicationFrame{
 	position:absolute;
-	top:60vh;
+	top:70vh;
 	width:100%;
 }
 #applicationFrame button{
@@ -102,173 +107,211 @@ textarea{
 	background:none;
 	padding-left:40px;
 	padding-right:40px;
+	border-radius: 10px;
 	border:2px solid rgba(247,248,249,1.00);
 }
 #applicationFrame button:hover{
 	background-color:rgba(247,248,249,0.80);
-	color:rgba(218, 169, 139, 1.0);
+	color:rgba(60, 60, 60, 1.0);
+}
+.video-frame{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	text-align: center;
 }
 video#bgvid{
-	position: absolute;
+	position: fixed;
 	top: 50%;
 	left: 50%;
 	min-width: 100%;
 	min-height: 100%;
 	width: auto;
 	height: auto;
-	z-index:0;
-	-webkit-transform: translateX(-50%) translateY(-50%);
+	z-index: -100;
 	transform: translateX(-50%) translateY(-50%);
-	background: url(video/test.jpg) no-repeat;
-	background-size: cover;
+}
+.main-event-detail-table .title{
+	padding-right: 20px;
+	text-align: right;
+}
+#email-send-success, #email-send-fail, #email-send-missing{
+	font-weight: 300;
+	display: none;
+}
+#email-send-fail a{
+	color: rgba(247,248,249,1.0);
+	text-decoration: underline;
+}
+#email-send-fail a:hover{
+	color: rgba(160,160,160,1.0);
+	text-decoration: underline;
 }
 @media (max-width: 767px) {
-#circle{
-	height:40vw;
-	width:40vw;
-}
-#introRow .col-sm-4{
-	margin-bottom:60px;
-}
-.map{
-	margin-top:20px;
-}
-.form{
-	padding-left:5vw;
-	padding-right:5vw;
-}
-.form label{
-	font-size:20px;
-}
-form .submit{
-	font-size:20px;
-}
-.social-icons{
-	width:1px;
-	right:70px;
-	text-align:centerl;
-	
-}
-.social-icons img{
-	height:25px;
-}
-.logos{
-	width:1px;
-	margin-left:-10px;
-}
-.logos img{
-	height:30px;
-	margin-top:5px;
-	margin-bottom:5px;
-}
-.scroll-down{
-	font-size:24px;
-	margin-top:90vh;
-}
-.scroll-down img{
-	height:19px;
-}
-#scroll-down a, #scroll-down a:link, #scroll-down a:hover, #scroll-down a:active, #scroll-down a:visited{
-	color:rgba(247,248,249,1.00);
-}
-#countDown{
-	font-size:7.5vw;
-}
-#countDownFrame{
-	font-size:26px;
-}
-#applicationFrame button{
-	font-size:26px;
-}
+	.intro-text{
+		padding-top: 70px;
+		padding-bottom: 70px;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	#circle{
+		height:40vw;
+		width:40vw;
+	}
+	#introRow .col-sm-4{
+		margin-bottom:60px;
+	}
+	.map{
+		margin-top:20px;
+	}
+	.form{
+		padding-left:5vw;
+		padding-right:5vw;
+	}
+	.form label{
+		font-size:20px;
+	}
+	form .submit{
+		font-size:20px;
+	}
+	.social-icons{
+		width:1px;
+		right:70px;
+		text-align:center;
+
+	}
+	.social-icons img{
+		height:25px;
+	}
+	.logos{
+		width:1px;
+		margin-left:-10px;
+	}
+	.logos img{
+		height:30px;
+		margin-top:5px;
+		margin-bottom:5px;
+	}
+	.scroll-down{
+		font-size:24px;
+		bottom:20px;
+	}
+	.scroll-down img{
+		height:19px;
+	}
+	#scroll-down a, #scroll-down a:link, #scroll-down a:hover, #scroll-down a:active, #scroll-down a:visited{
+		color:rgba(247,248,249,1.00);
+	}
+	#countDown{
+		font-size:7.5vw;
+	}
+	#countDownFrame{
+		font-size:26px;
+	}
+	#applicationFrame button{
+		font-size:26px;
+	}
 }
 @media (min-width: 768px) {
-#circle{
-	height:20vw;
-	width:20vw;
-}
-.detail-left{
-	padding-left:5vw;
-}
-.detail-right{
-	padding-right:5vw;
-}
-#awardText{
-	margin-top:40px;
-}
-#mapText{
-	margin-top:40px;
-}
-.form{
-	padding-left:5vw;
-	padding-right:5vw;
-}
-.form label{
-	font-size:18px;
-}
-form{
-	margin-right:9vw;
-}
-.logos img{
-	margin:6px;
-	height:40px;
-}
-.social-icons{
-	right:40px;
-}
-.social-icons img{
-	height:25px;
-}
-.scroll-down{
-	font-size:26px;
-	margin-top:85vh;
-}
-.scroll-down img{
-	height:20px;
-}
-#countDown{
-	font-size:60px;
-}
-#countDownFrame{
-	font-size:30px;
-}
-#applicationFrame button{
-	font-size:30px;
-}
+	.intro-text{
+		padding-top: 120px;
+		padding-bottom: 120px;
+		padding-left: 12%;
+		padding-right: 12%;
+	}
+	#circle{
+		height:20vw;
+		width:20vw;
+	}
+	.detail-left{
+		padding-left:5vw;
+	}
+	.detail-right{
+		padding-right:5vw;
+	}
+	#awardText{
+		margin-top:40px;
+	}
+	#mapText{
+		margin-top:15px;
+	}
+	.form{
+		padding-left:5vw;
+		padding-right:5vw;
+	}
+	.form label{
+		font-size:18px;
+	}
+	form{
+		margin-right:9vw;
+	}
+	.logos img{
+		margin:6px;
+		height:40px;
+	}
+	.social-icons{
+		right:40px;
+	}
+	.social-icons img{
+		height:25px;
+	}
+	.scroll-down{
+		font-size:26px;
+		bottom:70px;
+	}
+	.scroll-down img{
+		height:20px;
+	}
+	#countDown{
+		font-size:60px;
+	}
+	#countDownFrame{
+		font-size:30px;
+	}
+	#applicationFrame button{
+		font-size:30px;
+	}
 }
 @media (min-width: 1200px) {
-.detail-left{
-	padding-left:10vw;
-}
-.detail-right{
-	padding-right:10vw;
-}
-.map{
-	margin-left:-14px;
-}
-form label{
-	font-size:20px;
-}
-form .submit{
-	font-size:20px;
-}
-.logos img{
-	margin:10px;
-	height:40px;
-}
-.scroll-down{
-	margin-top:80vh;
-}
-.social-icons img{
-	height:35px;
-}
-#countDown{
-	font-size:80px;
-}
-#countDownFrame{
-	font-size:40px;
-}
-#applicationFrame button{
-	font-size:40px;
-}
+	.intro-text{
+		padding-top: 200px;
+		padding-bottom: 200px;
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+	.detail-left{
+		padding-left:10vw;
+	}
+	.detail-right{
+		padding-right:10vw;
+	}
+	.map{
+		margin-left:-14px;
+	}
+	form label{
+		font-size:20px;
+	}
+	form .submit{
+		font-size:20px;
+	}
+	.logos img{
+		margin:10px;
+		height:40px;
+	}
+	.scroll-down{
+		bottom:70px;
+	}
+	.social-icons img{
+		height:35px;
+	}
+	#countDown{
+		font-size:80px;
+	}
+	#countDownFrame{
+		font-size:40px;
+	}
+	#applicationFrame button{
+		font-size:30px;
+	}
 }
 
