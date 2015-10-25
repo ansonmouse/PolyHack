@@ -57,8 +57,8 @@
 </div>
 <section id="main" class="section-scroll">
 	<div class="container-fluid light text-center intro-text">
-		<div class="row"><div class="col-sm-12"><h1>More Than Just Coding</h1></div></div>
-		<div class="row"><div class="col-sm-12">
+		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0s"><h1>More Than Just Coding</h1></div></div>
+		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0.25s">
 				<p>
 					Tired of programming just for assignments, projects and want to make something really useful? Or you have a killer idea in mind for a long time but did not have the opportunity to realize it? This is what PolyHack is all about! Whether you are a programmer, designer or PolyU students from other discipline who have an idea but do not have what it takes to realize your dream, PolyHack is the place for you. In PolyHack you meet people of different talents, through 24 hours of trial and error, you make your dreams come true!
 				</p>
