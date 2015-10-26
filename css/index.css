@@ -283,7 +283,7 @@ video#bgvid{
 	}
 	.scroll-down{
 		font-size:26px;
-		bottom:70px;
+		bottom:40px;
 	}
 	.scroll-down img{
 		height:20px;
@@ -331,7 +331,7 @@ video#bgvid{
 		height:40px;
 	}
 	.scroll-down{
-		bottom:70px;
+		bottom:40px;
 	}
 	.social-icons img{
 		height:35px;

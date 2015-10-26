@@ -108,7 +108,7 @@
 					</tr>
 					<tr>
 						<td class="title"><h3>Venue</h3></td>
-						<td><h3>13/F, Jocky Club Innovation Tower, PolyU, Hong Kong</h3></td>
+						<td><h3>PolyU, Hong Kong</h3></td>
 					</tr>
 					<tr>
 						<td class="title"><h3>Fee</h3></td>
@@ -118,7 +118,7 @@
 			</div>
 			<div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
 				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d922.8200460726586!2d114.17941715712942!3d22.3052409515323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x41b4db8708c4f997!2zSm9ja2V5IENsdWIgSW5ub3ZhdGlvbiBUb3dlciDos73ppqzmnIPlibXmlrDmqJM!5e0!3m2!1szh-TW!2shk!4v1445746966551"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.304062613272!2d114.17860556128922!3d22.304337461803957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x5aeb1a34766d7fa0!2z6aaZ5riv55CG5bel5aSn5a24!5e0!3m2!1szh-TW!2shk!4v1445846987169"
 					class="map" allowfullscreen></iframe>
 			</div>
 		</div>

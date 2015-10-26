@@ -6,8 +6,8 @@ $schedule = array(
 				'day_of_week'=>'Fri',
 				'start_time'=>'6:45 PM',
 				'end_time'=>'9:00 PM',
-				'title'=>'PizzaHack',
-				'venue'=>'TBC',
+				'title'=>'MiniHack X PizzaHack',
+				'venue'=>'CD307',
 				'type'=>'briefing',
 				'description'=>'<p>Sharing on hackathon.</p>
 				<p>Students will be introduced the idea of what a hackathon is. There will be sharings by hackathon organizers and participants who will talk about their experience and the benefits brought. Team formation is encouraged.</p>'
@@ -56,7 +56,7 @@ $schedule = array(
 				'start_time'=>'10:00 AM',
 				'end_time'=>'3:00 PM',
 				'title'=>'The PolyHack Competition',
-				'venue'=>'V1310',
+				'venue'=>'TBC',
 				'type'=>'hackathon',
 				'description'=>'Main hackathon event.'
 		),
