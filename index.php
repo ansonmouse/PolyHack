@@ -15,7 +15,7 @@
 <!-- Main Content -->
 <div class="container-fluid fill-height top top-banner wow fadeIn"
 	 id="top-fill-height">
-	<div class="video-frame">
+	<div id="video-frame">
 		<video autoplay loop muted poster="image/poly-flyby/home_bg.jpg" id="bgvid">
 			<source src="image/poly-flyby/home_bg.mp4" type="video/mp4">
 		</video>
@@ -219,4 +219,15 @@ if(isset($_GET['submit'])) {
 				event.strftime('%-D days %-H hr %M min %S sec')
 			);
 		});
+</script>
+<script>
+	try{
+		document.createEvent("TouchEvent");
+		document.body.style.backgroundImage = 'url("../image/poly-flyby/home_bg.jpg")';
+		document.body.style.backgroundPosition = 'center center';
+		document.body.style.backgroundSize = 'cover';
+		document.body.style.backgroundRepeat = 'no-repeat';
+	} catch(e) {
+		document.getElementById('video-frame').style.display = 'inline';
+	}
 </script>
