@@ -12,8 +12,10 @@
 
 </script>
 <link href="css/index.css" rel="stylesheet">
+<link href="css/index_carson.css" rel="stylesheet">
+
 <!-- Main Content -->
-<div class="container-fluid fill-height top top-banner wow fadeIn"
+<div class="container-fluid fill-height top top-banner wow fadeIn top_new"
 	 id="top-fill-height">
 	<div id="video-frame">
 		<video autoplay loop muted poster="image/poly-flyby/home_bg.jpg" id="bgvid">
@@ -56,7 +58,7 @@
 	</div>
 </div>
 <section id="main" class="section-scroll">
-	<div class="container-fluid light text-center intro-text">
+	<div id="intro" class="container-fluid light text-center intro-text">
 		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0s"><h1>More Than Just Coding</h1></div></div>
 		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0.25s">
 				<p>
@@ -231,3 +233,4 @@ if(isset($_GET['submit'])) {
 		document.getElementById('video-frame').style.display = 'inline';
 	}
 </script>
+<script src="js/carson.js"></script>

@@ -1,0 +1,31 @@
+
+#applicationFrame .btn-default{
+	background-color: rgba(255,255,255,0.1);
+}
+.section-scroll{
+	padding-top: 0px;
+}
+body {
+  overflow-x:hidden 
+} 
+@media only screen and (max-device-height : 690px){
+	#countDown{
+		font-size: 24px;
+	}
+	#countDownFrame h1{
+		font-size: 22px;
+	}
+	#countDownFrame h2{
+		font-size: 18px;	
+	}
+	#applicationFrame button,#applicationFrame h3{
+		font-size: 14px;
+	}
+	#applicationFrame{
+		top:240px;
+	}
+	.fill-height{
+		max-height: 400px !important;
+	}
+
+}

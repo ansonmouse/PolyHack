@@ -15,7 +15,7 @@
 <!-- Main Content -->
 <div class="container-fluid fill-height top top-banner wow fadeIn"
 	 id="top-fill-height">
-	<div id="video-frame">
+	<div class="video-frame">
 		<video autoplay loop muted poster="image/poly-flyby/home_bg.jpg" id="bgvid">
 			<source src="image/poly-flyby/home_bg.mp4" type="video/mp4">
 		</video>
@@ -104,7 +104,7 @@
 				<table class="main-event-detail-table">
 					<tr>
 						<td class="title"><h3>Date</h3></td>
-						<td><h3>23 - 24 Jan 2016</h3></td>
+						<td><h3>30 - 31 Jan 2016</h3></td>
 					</tr>
 					<tr>
 						<td class="title"><h3>Venue</h3></td>
@@ -188,8 +188,8 @@ if(isset($_GET['submit'])) {
 	if($email == '' || $name == '' || $message == '') {
 		?><script>document.getElementById('email-send-missing').style.display = 'inline';location.hash = "#contact";</script><?php
 	} else {
-		//if(mail("polyhack@comp.polyu.edu.hk","Enquiry Form",$message, $email)) {
-			if(mail("ansonmouse@me.com","PolyHack Enquiry Form", $message, $email)) {
+		if(mail("polyhack@comp.polyu.edu.hk","Enquiry Form",$message, $email)) {
+			//if(mail("ansonmouse@me.com","Enquiry Form", $message, $email)) {
 			?><script>document.getElementById('email-send-success').style.display = 'inline';location.hash = "#contact";</script><?php
 		} else {
 			?><script>document.getElementById('email-send-fail').style.display = 'inline';location.hash = "#contact";</script><?php
@@ -221,13 +221,8 @@ if(isset($_GET['submit'])) {
 		});
 </script>
 <script>
-	try{
-		document.createEvent("TouchEvent");
-		document.body.style.backgroundImage = 'url("../image/poly-flyby/home_bg.jpg")';
-		document.body.style.backgroundPosition = 'center center';
-		document.body.style.backgroundSize = 'cover';
-		document.body.style.backgroundRepeat = 'no-repeat';
-	} catch(e) {
-		document.getElementById('video-frame').style.display = 'inline';
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		// some code..
+		alert('mobile');
 	}
 </script>
