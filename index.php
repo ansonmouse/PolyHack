@@ -75,7 +75,7 @@
 					</div>
 					<h1>24 Hours</h1>
 				</div>
-				of non stop innovation
+				During the 24-hours, free meals, electrical outlet, and wireless internet will be provided on-site. Intensive design process and coding will be expected. We will make you as comfortable as possible!
 			</div>
 			<div class="col-sm-4">
 				<div class="wow zoomIn" data-wow-delay="0.5s">
@@ -84,7 +84,7 @@
 					</div>
 					<h1>One Idea</h1>
 				</div>
-				with unlimited potential
+				Haven’t got an idea? No worries, join our briefing session, workshops and make friends and spark ideas.
 			</div>
 			<div class="col-sm-4">
 				<div class="wow zoomIn" data-wow-delay="0.75s">
@@ -93,7 +93,7 @@
 					</div>
 					<h1>One Prototype</h1>
 				</div>
-				that turns your dream into reality
+				By the end of the event, a product showcase will be held where everybody can play with everybody’s product. Remember, your deliverable must be workable for some degree!
 			</div>
 		</div>
 	</div>
