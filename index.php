@@ -27,7 +27,9 @@
 		<h2>to go</h2>
 	</div>
 	<div class="row text-center" id="applicationFrame">
-		<button class="btn btn-default">Join The Briefing Section NOW</button>
+		<a href="http://goo.gl/forms/H6Jlx0ZgoJ" target="_blank">
+			<button class="btn btn-default">Join The Briefing Section NOW</button>
+		</a>
 		<h3 class="light">6:45 PM • Nov 13</h3>
 	</div>
 	<a class="page-scroll" href="#main">
