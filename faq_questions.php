@@ -4,6 +4,18 @@ $general_info = array(
 				'question'=>'What is PolyHack?',
 				'answer'=>'PolyHack is a student driven hackathon event that allows students from different disciplines and alumni to prototype their ideas with the aim of motivating students to work with latest technology and solve real-world problems. The event will consist of a series of intensive workshops and a final 24-hours period developing their software and hardware prototype development. A product showcase and presentation session will be organized to give participants the opportunity to pitch and market their work.'	
 		),
+		array(
+				'question'=>'What if I don\'t have any groupmates?',
+				'answer'=>'Come join our briefing session and get to know others!'
+		),
+		array(
+				'question'=>'What if I don\'t have any ideas in mind?',
+				'answer'=>'Again, join our briefing session and listen to others\' ideas.'
+		),
+		array(
+				'question'=>'Any suggestion on grouping?',
+				'answer'=>'We suggest every group to be composed of programmers, designers and people with domain knowloege of the application you are going to develop.'
+		),
 );
 
 $registration = array(
