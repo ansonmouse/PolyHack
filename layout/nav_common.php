@@ -12,15 +12,14 @@
       <ul class="nav navbar-nav navbar-right">
         <!-- <li><a href="#">News</a></li> -->
         <li><a href="schedule.php">Schedule</a></li>
-        <!-- <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About<span class="caret"></span></a>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Detail</a></li>
-            <li><a href="#">Panel of Judges</a></li>
-            <li><a href="#">Sponsors</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Application</a></li>
+            <li><a href="polyhackDetail.php">PolyHack in Detail</a></li>
+            <li><a href="sponsor.php">Sponsors</a></li>
+            <!--<li class="divider"></li>
+            <li><a href="#">Application</a></li>-->
           </ul>
-        </li> -->
+        </li>
         <li><a href="faq.php">FAQ</a></li>
       </ul>
     </div>

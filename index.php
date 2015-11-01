@@ -13,7 +13,7 @@
 </script>
 <link href="css/index.css" rel="stylesheet">
 <!-- Main Content -->
-<div class="container-fluid fill-height top top-banner wow fadeIn"
+<div class="container-fluid fill-height top wow fadeIn"
 	 id="top-fill-height">
 	<div id="video-frame">
 		<video autoplay loop muted poster="image/poly-flyby/home_bg.jpg" id="bgvid">
@@ -176,7 +176,7 @@
 				<div class="col-sm-10 text-center">
 					<span id="email-send-success" class="light">Your email has been sent successfully.  Thank you.</span>
 					<span id="email-send-missing" class="light">Please provide all information</span>
-					<span id="email-send-fail" class="light">There were some problems on the email.  Please try again later or send via <a href="mailto:polyhack@comp.polyu.edu.hk?Subject=PolyHack%20Enquiry" target="_top">polyhack@comp.polyu.edu.hk</a></span>
+					<span id="email-send-fail" class="light">There were some problems on the email.  Please try again later or send via <a href="mailto:polyhack@comp.polyu.edu.hk?Subject=PolyHack%20Sponsor%20Enquiry" target="_top">polyhack@comp.polyu.edu.hk</a></span>
 				</div>
 			</div>
 		</form>
@@ -190,8 +190,8 @@ if(isset($_GET['submit'])) {
 	if($email == '' || $name == '' || $message == '') {
 		?><script>document.getElementById('email-send-missing').style.display = 'inline';location.hash = "#contact";</script><?php
 	} else {
-		//if(mail("polyhack@comp.polyu.edu.hk","Enquiry Form",$message, $email)) {
-			if(mail("ansonmouse@me.com","PolyHack Enquiry Form", $message, $email)) {
+		if(mail("polyhack@comp.polyu.edu.hk","Enquiry Form",$message, $email)) {
+			//if(mail("ansonmouse@me.com","PolyHack Enquiry Form", $message, $email)) {
 			?><script>document.getElementById('email-send-success').style.display = 'inline';location.hash = "#contact";</script><?php
 		} else {
 			?><script>document.getElementById('email-send-fail').style.display = 'inline';location.hash = "#contact";</script><?php
