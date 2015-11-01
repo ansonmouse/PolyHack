@@ -145,7 +145,7 @@
 	<div class="container-fluid"
 		 style="background-color: rgba(197, 124, 89, 1.00)" name="contact" id="contact">
 		<h1 class="light detail-left">Talk to Us</h1>
-		<form class="form-horizontal" role="form">
+		<form class="form-horizontal" role="form" method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>">
 			<div class="form-group wow fadeInUp" data-wow-delay="0.25s">
 				<label for="name" class="control-label col-sm-2">Name: </label>
 				<div class="col-sm-10">
@@ -182,16 +182,19 @@
 		</form>
 	</div>
 <?php
-if(isset($_GET['submit'])) {
-	$email = $_GET['email'];
-	$name = $_GET['name'];
-	$message = $_GET['message'];
+if(isset($_POST['submit'])) {
+	$email = $_POST['email'];
+	$name = $_POST['name'];
+	$message = 'Name: '.$_POST['name']."\nMessage: ".$_POST['message'];
 	$message = wordwrap($message, 70);
+	$headers = 'From: '.$email."\r\n" .
+		'Reply-To: '.$email."\r\n" .
+		'X-Mailer: PHP/' . phpversion();
 	if($email == '' || $name == '' || $message == '') {
 		?><script>document.getElementById('email-send-missing').style.display = 'inline';location.hash = "#contact";</script><?php
 	} else {
-		if(mail("polyhack@comp.polyu.edu.hk","Enquiry Form",$message, $email)) {
-			//if(mail("ansonmouse@me.com","PolyHack Enquiry Form", $message, $email)) {
+		if(mail("polyhack@comp.polyu.edu.hk","Enquiry Form",$message, $headers)) {
+			//if(mail("ansonmouse@me.com","PolyHack Enquiry Form", $message, $headers)) {
 			?><script>document.getElementById('email-send-success').style.display = 'inline';location.hash = "#contact";</script><?php
 		} else {
 			?><script>document.getElementById('email-send-fail').style.display = 'inline';location.hash = "#contact";</script><?php
