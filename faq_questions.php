@@ -33,7 +33,7 @@ $registration = array(
 		),
 		array(
 				'question'=>'Ticketing',
-				'answer'=>'Please refer to https://xxx.xxx.hk for details.'
+				'answer'=>'Please refer to home page for details.'
 		),
 		array(
 				'question'=>'Attendance Time',
