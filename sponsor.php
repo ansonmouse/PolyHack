@@ -21,7 +21,7 @@
 <div class="container sponsor-detail">
     <div class="row">
         <h1>Why Sponsor</h1>
-        <p>By sponsoring us, you get the chance to increase your brand exposure, recruit talented students and promote your API ecosystem.</p>
+        <p>By sponsoring us, you get the chance to increase your brand exposure, recruit talented students and if applicable, promote your API ecosystem.</p>
         <hr>
     </div>
     <div class="row">
@@ -62,7 +62,7 @@
 <div class="container know-more">
     <hr>
     <div class="row text-center">
-        <h3>Want to do this specially?  Talk to us in email.</h3>
+        <h3>Want to do this specially?  Talk to us through email.</h3>
     </div>
     <div class="row text-center">
         <h3><a href="mailto:polyhack@comp.polyu.edu.hk?Subject=PolyHack%20Sponsor%20Enquiry" target="_top">polyhack@comp.polyu.edu.hk</a></h3>

@@ -28,7 +28,7 @@ $registration = array(
 				'answer'=>'Registration starts now!' 
 		),
 		array(
-				'question'=>'Is workshop and seminar a must?',
+				'question'=>'Are the workshops and seminar a must?',
 				'answer'=>'They are not, but highly recommanded. The workshops aim to provide essential skills for students without programming, design or business opportunity to get essential skills required in a product development cycle so that they can begin exploring more by themselves. Students are encouraged to join the workshops to learn something outside of their own discpline.' 
 		),
 		array(
@@ -48,7 +48,8 @@ $registration = array(
 $transportation = array(
 		array(
 				'question'=>'How to reach the venue?',
-				'answer'=>'Take the elevator on 3/F of block V (School of Design).'
+				#'answer'=>'Take the elevator on 3/F of block V (School of Design).'
+				'answer'=>''
 		),
 );
 
