@@ -1,0 +1,13 @@
+.gold{color:rgba(191,144,0,1.0);}
+.silver{color:rgba(127,127,127,1.0);}
+.bronze{color:rgba(197,90,17,1.0);}
+@media (min-width: 992px) {
+    .sponsor-detail hr{
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    .know-more hr{
+        display: none;
+    }
+}
