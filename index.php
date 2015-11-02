@@ -132,7 +132,7 @@
 			</div>
 			<div class="col-sm-6 detail-right wow fadeInUp" data-wow-delay="0.5s">
 				<h1>The PolyHack Award</h1>
-				<h2>Awards with up to $7,500 cash prize.</h2>
+				<h2>Awards with up to $15,000 cash prize.</h2>
 				<ul>
 					<li>Gold, Silver and Bronze award</li>
 					<li>Best theme product award</li>
