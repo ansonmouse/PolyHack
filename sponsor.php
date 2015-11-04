@@ -62,7 +62,7 @@
 <div class="container know-more">
     <hr>
     <div class="row text-center">
-        <h3>Want to do this specially?  Talk to us through email.</h3>
+        <h3>Want to do this specially? Talk to us through email. <a href="PolyHack_Sponsorship_2016.pdf" target="_blank">Click here for more</a></h3>
     </div>
     <div class="row text-center">
         <h3><a href="mailto:polyhack@comp.polyu.edu.hk?Subject=PolyHack%20Sponsor%20Enquiry" target="_top">polyhack@comp.polyu.edu.hk</a></h3>

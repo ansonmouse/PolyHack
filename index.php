@@ -62,7 +62,13 @@
 		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0s"><h1>About Us</h1></div></div>
 		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0.25s">
 				<p>
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.
+					PolyHack is a student driven hackathon organized by the Department of Computing, supported by the Student Union and sponsored by the School of Design. Through cross discipline cooperation, it motivates students to solve real-world problems with technology. PolyHack consists of a series of intensive workshop and a final 24-hours period for them to develop their working prototype. A product showcase and presentation session will be organized to give participants the opportunity to show and present their ideas. The themes of the year are “Education for all” and “Health matters”. It provides an opportunity for designers, programmers and others to work together and experience a typical software development cycle. It aims to give them real world problem solving and development experience and promote innovation.
+				</p>
+			</div></div>
+		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0s"><h1>Call for sponsorship</h1></div></div>
+		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0.25s">
+				<p>
+					By sponsoring us, you get the chance to increase your brand exposure, recruit talented students and if applicable, promote your API ecosystem...<a href="https://polyhack.hk/sponsor.php">Read more</a>
 				</p>
 			</div></div>
 	</div>
