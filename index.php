@@ -58,7 +58,7 @@
 	</div>
 </div>
 <section id="main" class="section-scroll">
-	<div class="container-fluid light text-center intro-text">
+	<div class="container-fluid light text-center intro-text" style="background-image: url(image/intro-text.jpg);">
 		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0s"><h1>About Us</h1></div></div>
 		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0.25s">
 				<p>
@@ -97,7 +97,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid light text-center intro-text">
+	<div class="container-fluid light text-center intro-text" style="background-image: url(image/intro-text_2.jpg);">
 		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0s"><h1>More Than Just Coding</h1></div></div>
 		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0.25s">
 				<p>

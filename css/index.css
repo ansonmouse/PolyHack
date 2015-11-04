@@ -19,7 +19,6 @@ section{
 	margin-bottom:40px;
 }
 .intro-text{
-	background-image: url("../image/intro-text.jpg");
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
