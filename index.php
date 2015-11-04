@@ -62,7 +62,7 @@
 		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0s"><h1>More Than Just Coding</h1></div></div>
 		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0.25s">
 				<p>
-					Tired of programming just for assignments, projects and want to make something really useful? Or you have a killer idea in mind for a long time but did not have the opportunity to realize it? This is what PolyHack is all about! Whether you are a programmer, designer or PolyU students from other discipline who have an idea but do not have what it takes to realize your dream, PolyHack is the place for you. In PolyHack you meet people of different talents, through 24 hours of trial and error, you make your dreams come true!
+					Do you have a bright idea in mind for a long time but have not had the opportunity to realize it? Or, you want to apply what you have learned in technology, business and design to solve a bigger, real-world problem? This is what PolyHack is all about! Whether you are a programmer, designer, business major or PolyU students from other disciplines who have an idea but do not have what it takes to realize your dream, PolyHack is the place for you. In PolyHack you will meet people of different talents, and through a 24-hr period you will develop a product with other students. This opportunity could make make your dreams come true!
 				</p>
 			</div></div>
 	</div>
@@ -75,7 +75,7 @@
 					</div>
 					<h1>24 Hours</h1>
 				</div>
-				During the 24-hours, free meals, electrical outlet, and wireless internet will be provided on-site. Intensive design process and coding will be expected. We will make you as comfortable as possible!
+				During the 24 hours, free meals, electrical outlet, and wireless Internet access will be provided on-site. Although intensive design process and coding will take place in the 24 hours, we will help you feel as comfortable as possible!
 			</div>
 			<div class="col-sm-4">
 				<div class="wow zoomIn" data-wow-delay="0.5s">
@@ -93,7 +93,7 @@
 					</div>
 					<h1>One Prototype</h1>
 				</div>
-				By the end of the event, a product showcase will be held where everybody can play with everybody’s product. Remember, your deliverable must be workable for some degree!
+				By the end of the event, a product showcase will be held where everybody can play with everybody’s product. Remember, your deliverable must be workable to some degree!
 			</div>
 		</div>
 	</div>
