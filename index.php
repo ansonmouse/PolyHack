@@ -65,12 +65,6 @@
 					PolyHack is a student driven hackathon organized by the Department of Computing, supported by the Student Union and sponsored by the School of Design. Through cross discipline cooperation, it motivates students to solve real-world problems with technology. PolyHack consists of a series of intensive workshop and a final 24-hours period for them to develop their working prototype. A product showcase and presentation session will be organized to give participants the opportunity to show and present their ideas. The themes of the year are “Education for all” and “Health matters”. It provides an opportunity for designers, programmers and others to work together and experience a typical software development cycle. It aims to give them real world problem solving and development experience and promote innovation.
 				</p>
 			</div></div>
-		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0s"><h1>Call for sponsorship</h1></div></div>
-		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0.25s">
-				<p>
-					By sponsoring us, you get the chance to increase your brand exposure, recruit talented students and if applicable, promote your API ecosystem...<a href="https://polyhack.hk/sponsor.php">Read more</a>
-				</p>
-			</div></div>
 	</div>
 	<div class="container-fluid gap">
 		<div class="row text-center" id="introRow">
@@ -156,6 +150,13 @@
 			</div>
 		</div>
 	</div>
+		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0s"><h1>Call for sponsorship</h1></div></div>
+		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0.25s">
+				<p>
+					By sponsoring us, you get the chance to increase your brand exposure, recruit talented students and if applicable, promote your API ecosystem...<a href="https://polyhack.hk/sponsor.php">Read more</a>
+				</p>
+			</div></div>
+
 	<div class="container-fluid"
 		 style="background-color: rgba(197, 124, 89, 1.00)" name="contact" id="contact">
 		<h1 class="light detail-left">Talk to Us</h1>
