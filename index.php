@@ -103,7 +103,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid light text-center intro-text" style="background-image: url(image/intro-text_2.jpg);">
+	<div class="container-fluid light text-center intro-text" style="background-color: rgba(100, 39, 67, 1.00)">
 		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0s"><h1>More Than Just Coding</h1></div></div>
 		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0.25s">
 				<p>
