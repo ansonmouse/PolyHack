@@ -58,7 +58,7 @@
 	</div>
 </div>
 <section id="main" class="section-scroll">
-	<div class="container-fluid light text-center intro-text" style="background-image: url(image/intro-text.jpg);">
+	<div class="container-fluid light text-center intro-text" style="background-image: url(image/intro-text_3.jpg);">
 		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0s"><h1>About Us</h1></div></div>
 		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0.25s">
 				<p>
