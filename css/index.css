@@ -111,6 +111,13 @@ textarea{
 	background-color:rgba(247,248,249,0.80);
 	color:rgba(60, 60, 60, 1.0);
 }
+#applicationFrame a{
+	color: rgba(247,248,249,1.0);
+	text-decoration: none;
+}
+#applicationFrame a:hover, #applicationFrame a:focus{
+	text-decoration: underline;
+}
 #video-frame{
 	width: 100%;
 	height: 100%;

@@ -30,7 +30,7 @@
 		<a href="http://goo.gl/forms/H6Jlx0ZgoJ" target="_blank">
 			<button class="btn btn-default">Join The Briefing Section NOW</button>
 		</a>
-		<h3 class="light">6:45 PM • Nov 13</h3>
+		<h3 class="light">6:45 PM • Nov 13</h3><h3><a href="schedule.php#collapse0">More Information</a></h3>
 	</div>
 	<a class="page-scroll" href="#main">
 		<div class="scroll-down row" id="scroll-down">

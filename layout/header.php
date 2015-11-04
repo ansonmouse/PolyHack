@@ -12,9 +12,6 @@
 <!-- Animation -->
 <link href="css/animate.css" rel="stylesheet">
 
-<script src="//use.typekit.net/tfy4gfm.js"></script>
-<script>try{Typekit.load();}catch(e){}</script>
-
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>

@@ -10,7 +10,6 @@
 
 	ga('create', 'UA-69265245-1', 'auto');
 	ga('send', 'pageview');
-
 </script>
 <!-- Main Content -->
 <?php include 'schedule_data.php';?>
@@ -51,3 +50,10 @@ foreach ($schedule as $row) {
 </div>
 <!-- End of Main Content -->
 <?php include 'layout/bottom.php' ?>
+<script>
+	$(document).ready(function() {
+		var anchor = window.location.hash.replace("#", "");
+		$(".collapse").collapse('hide');
+		$("#" + anchor).collapse('show');
+	});
+</script>
