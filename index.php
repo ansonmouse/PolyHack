@@ -59,10 +59,10 @@
 </div>
 <section id="main" class="section-scroll">
 	<div class="container-fluid light text-center intro-text">
-		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0s"><h1>More Than Just Coding</h1></div></div>
+		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0s"><h1>About Us</h1></div></div>
 		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0.25s">
 				<p>
-					Do you have a bright idea in mind for a long time but have not had the opportunity to realize it? Or, you want to apply what you have learned in technology, business and design to solve a bigger, real-world problem? This is what PolyHack is all about! Whether you are a programmer, designer, business major or PolyU students from other disciplines who have an idea but do not have what it takes to realize your dream, PolyHack is the place for you. In PolyHack you will meet people of different talents, and through a 24-hr period you will develop a product with other students. This opportunity could make make your dreams come true!
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.
 				</p>
 			</div></div>
 	</div>
@@ -97,7 +97,15 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid gap"
+	<div class="container-fluid light text-center intro-text">
+		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0s"><h1>More Than Just Coding</h1></div></div>
+		<div class="row"><div class="col-sm-12 wow fadeInUp" data-wow-delay="0.25s">
+				<p>
+					Do you have a bright idea in mind for a long time but have not had the opportunity to realize it? Or, you want to apply what you have learned in technology, business and design to solve a bigger, real-world problem? This is what PolyHack is all about! Whether you are a programmer, designer, business major or PolyU students from other disciplines who have an idea but do not have what it takes to realize your dream, PolyHack is the place for you. In PolyHack you will meet people of different talents, and through a 24-hr period you will develop a product with other students. This opportunity could make make your dreams come true!
+				</p>
+			</div></div>
+	</div>
+	<div class="container-fluid"
 		 style="background-color: rgba(161, 39, 67, 1.00)">
 		<div class="row">
 			<div class="col-sm-6 detail-left wow slideInLeft light"
