@@ -46,11 +46,11 @@ $registration = array(
 );
 
 $transportation = array(
-		array(
-				'question'=>'How to reach the venue?',
-				#'answer'=>'Take the elevator on 3/F of block V (School of Design).'
-				'answer'=>''
-		),
+#		array(
+#				'question'=>'How to reach the venue?',
+#				#'answer'=>'Take the elevator on 3/F of block V (School of Design).'
+#				'answer'=>''
+#		),
 );
 
 $emergency = array(
